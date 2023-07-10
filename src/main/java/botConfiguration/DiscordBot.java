@@ -140,7 +140,7 @@ public class DiscordBot extends ListenerAdapter {
      */
     public void run() throws LoginException, InterruptedException {
 
-        JDA bot = JDABuilder.createLight("OTc5Mjg4NTI3MTI2NzkwMTU1.Guv5IA.Has0wrUnW60u0UrhiW1je4W9TbMZMZFGw59zBQ",
+        JDA bot = JDABuilder.createLight("token",
                 GatewayIntent.GUILD_MESSAGES, GatewayIntent.DIRECT_MESSAGES).addEventListeners(new DiscordBot())
                 .setActivity(Activity.playing("Scrie: !help")).build();
         bot.awaitReady();
