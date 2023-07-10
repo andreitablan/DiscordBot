@@ -43,7 +43,7 @@ The **!seconds** function returns the number of seconds since the bot started.
 ```bash
 !seconds
 ```
-The **!milliseconds** function returns the number of milliseconds since the bot started.
+The **!miliseconds** function returns the number of milliseconds since the bot started.
 
 ```bash
 !miliseconds
