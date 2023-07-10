@@ -23,7 +23,7 @@ The **dfs** function displays the depth-first search traversal of a given graph 
 ```bash
 dfs: <number of nodes> <starting node> <edges>
 ```
-The **bfs*** function displays the breadth-first search traversal of a given graph as a parameter.
+The **bfs** function displays the breadth-first search traversal of a given graph as a parameter.
 
 ```bash
 bfs: <number of nodes> <starting node> <edges>
